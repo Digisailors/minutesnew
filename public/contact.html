@@ -2,7 +2,7 @@
 <html lang="en">
     
 <head>
-        <title>Payloan - Banking & Business Loan HTML5 Responsive Template</title>
+        <title>Minutes || Your valuable tax partner</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Include All CSS -->
@@ -54,22 +54,14 @@
                             <ul>
                                 <li class="menu-item-has-children">
                                     <a href="#">home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home 01</a></li>
-                                        <li><a href="index2.html">Home 02</a></li>
-                                    </ul>
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="#">Services</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="services.html">Service 01</a></li>
-                                        <li><a href="services2.html">Service 02</a></li>
-                                        <li><a href="service_details.html">Service Details</a></li>
-                                    </ul>
+
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="#">Pages</a>
-                                    <ul class="sub-menu">
+                                    <!-- <ul class="sub-menu">
                                         <li><a href="about.html">About</a></li>
                                         <li><a href="404.html">404 Page</a></li>
                                         <li><a href="faq.html">Faq Page</a></li>
@@ -90,14 +82,11 @@
                                         <li><a href="team.html">Team Member</a></li>
                                         <li><a href="application_form.html">Application Form</a></li>
                                         <li><a href="loan_calculation.html">Loan Calculation</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog Page</a></li>
-                                        <li><a href="single_blog.html">Blog Details</a></li>
-                                    </ul>
+
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -136,24 +125,27 @@
                         <div class="formArea">
                             <div class="row">
                                 <div class="col-lg-7 col-md-7">
-                                    <form action="#" method="post" class="contactFrom row" id="contactForm">
+                                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"  
+                                    onload="if(submitted) {window.location='http://127.0.0.1:5500/public/index.html';}"></iframe>
+
+                                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeOR32JBtNaQoYjhSslInCrYoX7PwDDt8Zq04a4Bci5M-4m6w/formResponse" target="hidden_iframe" method="POST" id="mG61Hd" class="contactFrom row" id="contactForm" onsubmit="return validateForm()";>
                                         <div class="col-md-6">
-                                            <input class="required" type="text"  name="f_name" id="f_name" placeholder="First name*">
+                                            <input class="required" type="text"  name="entry.1260153056" id="c-name" placeholder="First name*">
                                         </div>
-                                        <div class="col-md-6">
+                                        <!-- <div class="col-md-6">
                                             <input class="required" type="text"  name="l_name" id="l_name" placeholder="Last name*">
-                                        </div>
+                                        </div> -->
                                         <div class="col-md-12">
-                                            <input class="required" type="email" name="email" id="email" placeholder="Email here*">
+                                            <input class="required" type="email" name="entry.2051364609" id="c-email" placeholder="Email here*">
                                         </div>
                                         <div class="col-md-6">
-                                            <input class="required" type="text" name="phone" id="phone" placeholder="Phone*">
+                                            <input class="required" type="text" name="entry.1054108313" id="c-phone" placeholder="Phone*">
                                         </div>
-                                        <div class="col-md-6">
+                                        <!-- <div class="col-md-6">
                                             <input class="required" type="text" name="address" id="address" placeholder="Address*">
-                                        </div>
+                                        </div> -->
                                         <div class="col-md-12">
-                                            <textarea class="required" name="con_message*" id="con_message" placeholder="Text here...."></textarea>
+                                            <textarea class="required" name="entry.751282832" id="con_message" placeholder="Text here...."></textarea>
                                         </div>
                                         <div class="col-md-12">
                                             <button name="submit" type="submit" id="con_submit" class="common_btn">Send Message</button>
@@ -246,6 +238,7 @@
         <script src="https://maps.google.com/maps/api/js?key=AIzaSyCysDHE3s4Qw3nTh9o58-2mJcqvR6HV8Kk"></script>
         <script src="js/owl.carousel.js"></script>
         <script src="js/theme.js"></script>
+        <script src="js/contact_validate.js"></script>
     </body>
 
 
