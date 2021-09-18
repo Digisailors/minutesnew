@@ -3,7 +3,7 @@
  Theme URI: 
  Author: 
  Author URI: 
- Description: Payloan - Banking & Business Loan HTML5 Responsive Template
+ Description: Minutes || Your valuable tax partner
  Version: 1.0
  License:
  License URI:
