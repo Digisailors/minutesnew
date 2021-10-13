@@ -136,7 +136,7 @@
                                     onload="if(submitted) {window.location='http://127.0.0.1:5500/public/index.html';}"></iframe>
 
                                 <form
-                                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfEh4RqL27p8_Mgiv6iEwvQmkKsELEDpEPcBRiYWVi60LjPxA/formResponse" target="hidden_iframe" method="POST" id="mG61Hd" id="mG61Hd" class="contactFrom row"
+                                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfEh4RqL27p8_Mgiv6iEwvQmkKsELEDpEPcBRiYWVi60LjPxA/formResponse" target="hidden_iframe" method="POST" id="mG61Hd"  class="contactFrom row"
                                     id="contactForm" onsubmit="return validateForm()" ;>
                                     <div class="col-md-6">
                                         <input class="required" type="text" name="entry.1972568455" id="c-name"
@@ -249,8 +249,11 @@
                     <aside class="widget subscribe_widgets">
                         <h5><b>Subscribe our newsletter.</b></h5>
                         <hr style="width: 65%; margin-left: 1px; border-top: 4px solid rgb(129 142 230);">
-                        <form action="#" method="post">
-                            <input type="email" placeholder="Email address" name="email"/>
+                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                                    onload="if(submitted) {window.location='http://127.0.0.1:5500/public/index.html';}"></iframe>
+
+                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSectQynM4nSlHpsmpihE6wkEj1tQp56xhbjVScD5e0NLqF10A/formResponse" target="hidden_iframe" method="POST" id="mG61Hd"  onsubmit="return validateForm()">
+                            <input type="email" placeholder="Email address" id="email" name="entry.1111408403"/>
                             <!-- <input type="text" placeholder="Phone no." name="phone"/> -->
                             <input type="submit" value="Subscribe now">
                         </form>
@@ -352,6 +355,7 @@
     <script src="js/owl.carousel.js"></script>
     <script src="js/theme.js"></script>
     <script src="js/contact_validate.js"></script>
+    <script src="js/subscribe.js"></script>
 </body>
 
 
