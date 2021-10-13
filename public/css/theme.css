@@ -36,7 +36,7 @@ Version: 1.0
 .header_1{
     position: absolute;
     left: 0;
-    top: 25px;
+    top: 30px;
     width: 100%;
     height: auto;
     background: transparent;
@@ -47,7 +47,7 @@ Version: 1.0
     text-align: left;
 }
 .logo img{
-    max-width: 100%;
+    max-width: 108%;
     height: auto;
 }
 .mainmenu{
@@ -346,7 +346,7 @@ Version: 1.0
 .singleAB h2{
     font-size: 48px;
     line-height: 60px;
-    margin: 0 0 31px;
+    margin: 0 0 20px;
 }
 .singleAB p{
     margin: 0 0 25px;
@@ -625,7 +625,7 @@ Version: 1.0
 .footer .about_widgets img{
     max-width: 100%;
     height: auto;
-    margin-bottom: 52px;
+    margin-bottom: 25px;
 }
 .footer .about_widgets{
     margin-top: 21px;
@@ -666,7 +666,9 @@ Version: 1.0
     margin: 0;
 }
 
-.footer .subscribe_widgets{}
+.footer .subscribe_widgets{
+    margin-top: 20px;
+}
 .footer .subscribe_widgets h3{
     font-size: 40px;
     line-height: 55px;
@@ -704,16 +706,16 @@ Version: 1.0
 .footer .subscribe_widgets input[type="submit"]{
     height: 54px;
     color: #ffffff;
-    line-height: 54px;
+    line-height: 52px;
     background: #8180e0;
     border: none;
     outline: none;
     font-weight: 700;
     font-size: 17px;
-    border-radius: 3px;
+    border-radius: 14px;
     cursor: pointer;
     padding: 0 35.5px;
-    margin-top: 15px;
+    margin-top: 8px;
     transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
     -moz-transition: all ease 400ms;
@@ -1915,7 +1917,7 @@ Version: 1.0
 }
 .homeService{
     position: relative;
-    padding: 100px 0 55px;
+    padding: 0px 0 55px;
     z-index: 2;
 }
 .homeService:after{
@@ -2101,7 +2103,7 @@ Version: 1.0
     margin-bottom: 25px;
 }
 .latestPost h4 {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 32px;
     font-weight: 700;
     margin: -9px 0 18px;
@@ -3161,7 +3163,7 @@ Version: 1.0
 / 13. Team Members Page
 ------------------------------------------------------*/
 .teamPage{
-    padding: 70px 0 60px;
+    padding: 45px 0 60px;
 }
 .singleTeam_2{
     position: relative;
