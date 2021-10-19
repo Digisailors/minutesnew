@@ -23,7 +23,7 @@
 
 
     <!-- Favicon Icon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon"  type="image/png" href="public/images/favicon.png">
 </head>
 
 <body class="bg_right">
@@ -45,7 +45,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-3 col-md-3">
                     <div class="logo">
-                        <a href="index.html"><img src="images/logo3.png"  alt="" style="height: 78px;"></a>
+                        <a href="index.html"><img id="mobilelogo" src="images/logo3.png"  alt="" style="height: 59px;"></a>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8">
@@ -138,7 +138,7 @@
                                 <form
                                 action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfEh4RqL27p8_Mgiv6iEwvQmkKsELEDpEPcBRiYWVi60LjPxA/formResponse" target="hidden_iframe" method="POST" id="mG61Hd"  class="contactFrom row"
                                     id="contactForm" onsubmit="return validateForm()" ;>
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <input class="required" type="text" name="entry.1972568455" id="c-name"
                                             placeholder="Full Name*">
                                     </div>
@@ -149,7 +149,7 @@
                                         <input class="required" type="email" name="entry.686076882" id="c-email"
                                             placeholder="Email ID*">
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <input class="required" type="text" name="entry.1873837637" id="c-phone"
                                             placeholder="Contact number">
                                     </div>
@@ -172,7 +172,7 @@
                             <div class="col-lg-5 col-md-5 noPaddingLeft">
                                 <div class="google-maps">
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.862408010719!2d78.13058981478493!3d8.798994893680646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b03efb48d5d4273%3A0x239ccbd2b30849a7!2sMinutes%20Consultancy!5e0!3m2!1sen!2sin!4v1632286173670!5m2!1sen!2sin"
+                                        src="https://maps.google.com/maps?q=8.814096,78.134256&hl=es;z=14&amp;output=embed"
                                         style="border:0;position: relative;
                                         width: 100%;
                                         height: 798px;
@@ -194,13 +194,14 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <aside class="widget about_widgets">
-                        <img src="images/logo3.png" alt="" style="
-                        height: 65px;
+                        <img id="footerlogo" src="images/logo3.png" alt="" style="
+                        height: 59px;
                     " />
                         <p style="margin-bottom: 20px;"><b>Your Valuable Tax Partner !!</b></p>
                         <span><i style="padding: 5px; color: #8180e0;" class="fab fa-facebook"></i></span>
                         <span><i style="padding: 5px; color: #8180e0;" class="fab fa-instagram"></i></span>
                         <span><i style="padding: 5px; color: #8180e0;" class="fab fa-twitter"></i></span>
+                        <span><i style="padding: 5px; color: #8180e0;" class="fab fa-linkedin"></i></span>
                     </aside>
                 </div>
                 <div class="col-lg-2 col-md-6">
@@ -234,15 +235,17 @@
                     <aside class="widget about_widgets">
                         <h5><b>Contact Us</b></h5>
                         <hr style="width: 65%; margin-left: 1px; border-top: 4px solid rgb(129 142 230);">
-                        <h6 style="font-size: 15px;line-height: 25px;"><i style="padding-right: 5px; color: #8180e0;"
-                                class="fa fa-map-marker-alt"></i> 112D, Palayamkottai Road<br>
-                            New VVD, signal<br>
-                            Thoothukudi
-                        </h6>
+                        <h6 style="font-size: 15px;line-height: 23px;"><i style="padding-right: 5px; color: #8180e0;"
+                            class="fa fa-map-marker-alt"></i> 102f /169 /6 ,<br>
+                            1st Floor, Abirami Tower,<br>
+                            Polpettai,Thoothukudi,<br>TamilNadu-02
+                    </h6>
+                    <h6 style="font-size: 15px;" ><i style="padding-right: 5px; color: #8180e0;"
+                        class="fa fa-phone-alt"></i><a href="tel:+918056592204">805 6592 204</a></h6>
                         <h6 style="font-size: 15px;"><i style="padding-right: 5px; color: #8180e0;"
-                                class="fa fa-phone-alt"></i>805 6592 204</h6>
-                        <h6 style="font-size: 15px;"><i style="padding-right: 5px; color: #8180e0;"
-                                class="fas fa-envelope"></i> info@minutes.biz</h6>
+                            class="fas fa-tty"></i>0461-2003344</h6>
+                <h6 style="font-size: 15px;"><i style="padding-right: 5px; color: #8180e0;"
+                        class="fas fa-envelope"></i> <a href="mailto:info@minutes.biz">info@minutes.biz</a></h6>
                     </aside>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -360,3 +363,14 @@
 
 
 </html>
+<style>
+    @media (min-width:480px) and (max-width:760px){
+        #mobilelogo{
+              height: 69px !important;
+              margin-top: 19px !important;
+        }
+        #footerlogo{
+            height: 69px !important;
+        }
+    }
+</style>
